@@ -72,14 +72,14 @@ td {
 }
 
 #menu-one {
-    padding-right: 500px;
+    padding-right: 200px;
     padding-bottom: 8px;
 
 }
 
 #menu-two {
     padding-bottom: 8px;
-    padding-right: 500px;
+    padding-right: 200px;
 
 }
 
@@ -89,6 +89,11 @@ td {
 
 #menuheadlines {
     margin-bottom: 16px;
+}
+
+.padding-sites {
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .backround-img {
@@ -258,7 +263,6 @@ td {
     display: flex;
     flex-direction: column;
     background-image: url(./assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
-    margin-bottom: 120px;
 }
 
 .second-main-content {
@@ -291,6 +295,8 @@ td {
     display: flex;
     justify-content: end;
     margin-bottom: 56px;
+    max-width: 1440px;
+    width: 100%;
 }
 
 .meal-three {
@@ -359,6 +365,7 @@ td {
 .maps.css {
     max-width: 1440px;
     width: 100%;
+    padding-left:400px;
 }
 
 .footer-container {

@@ -1,23 +1,21 @@
 @font-face {
     font-family: 'Raleway';
-    src: url("./assets/fonts/Raleway/Raleway-Regular.ttf");
+    src: url(/assets/fonts/Raleway/Raleway-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Raleway-Bold';
-    src: url("./assets/fonts/Raleway/Raleway-Bold.ttf");
-    font-weight: 700;
+    src: url(/assets/fonts/Raleway/Raleway-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Economica';
-    src: url("./assets/fonts/Economica/Economica-Regular.ttf");
+    src: url(/assets/fonts/Economica/Economica-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Economica-Bold';
-    src: url("./assets/fonts/Economica/Economica-Bold.ttf");
-    font-weight: 700;
+    src: url(/assets/fonts/Economica/Economica-Bold.ttf);
 }
 
 :root {
@@ -54,7 +52,6 @@ h2 {
     margin-top: 120px;
     margin-bottom: 64px;
     max-width: 1440px;
-    /* font-weight: 700; */
 }
 
 h3 {
@@ -75,14 +72,14 @@ td {
 }
 
 #menu-one {
-    padding-right: 200px;
+    padding-right: 500px;
     padding-bottom: 8px;
 
 }
 
 #menu-two {
     padding-bottom: 8px;
-    padding-right: 200px;
+    padding-right: 500px;
 
 }
 
@@ -92,11 +89,6 @@ td {
 
 #menuheadlines {
     margin-bottom: 16px;
-}
-
-.padding-sites {
-    padding-left: 160px;
-    padding-right: 160px;
 }
 
 .backround-img {
@@ -174,13 +166,8 @@ td {
     font-size: 24px;
 }
 
-.phone:hover {
-    text-decoration: underline;
-    }
-
 .hero-text {
-    max-width: 1440px;
-    width: 100%;
+    width: 1440px;
     height: 100vh;
     position: absolute;
     color: white;
@@ -197,7 +184,7 @@ td {
 
 .headline-hero {
 
-    font-family: 'Raleway';
+    font-family: 'Raleway-Bold';
     margin: 0 auto;
 }
 
@@ -262,7 +249,7 @@ td {
 
 .HTO-text {
     color: var(--clr-default);
-    font-family: 'Economica';
+    font-family: 'Economica-Bold';
     display: flex;
     margin: 0;
 }
@@ -271,6 +258,7 @@ td {
     display: flex;
     flex-direction: column;
     background-image: url(./assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    margin-bottom: 120px;
 }
 
 .second-main-content {
@@ -303,8 +291,6 @@ td {
     display: flex;
     justify-content: end;
     margin-bottom: 56px;
-    max-width: 1440px;
-    width: 100%;
 }
 
 .meal-three {
@@ -333,7 +319,7 @@ td {
 }
 
 .font-meal {
-    font-family: 'Raleway';
+    font-family: 'Raleway-Bold';
     color: var(--clr-price);
 }
 
@@ -373,7 +359,6 @@ td {
 .maps.css {
     max-width: 1440px;
     width: 100%;
-    padding-left:400px;
 }
 
 .footer-container {
@@ -399,12 +384,5 @@ td {
 .right-footer {
     height: 40px;
     width: 40px;
-    margin: 15px
-}
-
-.right-footer-css a {
-    display: inline-block;
-    border-radius: 60%;
-    height: 40px;
-    width: 40px;
+    margin: 5px
 }

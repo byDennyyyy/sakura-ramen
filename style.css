@@ -72,14 +72,14 @@ td {
 }
 
 #menu-one {
-    padding-right: 500px;
+    padding-right: 100px;
     padding-bottom: 8px;
 
 }
 
 #menu-two {
     padding-bottom: 8px;
-    padding-right: 500px;
+    padding-right: 100px;
 
 }
 
@@ -445,9 +445,116 @@ td {
     }
 
     td {
-        font-size: 24px;
-
+        font-size: 24px;  
     }
-   
+    .dontshowfooterlogo  {
+        display: none;
+    }
 
 }
+
+@media (max-width:767px) {
+    .logorep2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navrep2 {
+        height: 64px;
+    }
+
+    .phonerep2 {
+        font-size: 16px;
+    }
+    .phonelogorep2 {
+        width: 16px;
+        height: 16px;
+    }
+
+    .aotrep2 {
+        font-size: 44px;
+    }
+    .aot2rep2 {
+        font-size: 16px;
+    }
+    .oderheadrep2 {
+        padding-top: 72px;
+        padding-bottom: 32px;
+        font-size: 40px;
+    }
+    .orderimgrep2 {
+        height: 112px;
+        width: 112px;
+        margin-bottom: 8px;
+    }
+    .maincontentrep2 {
+        padding-bottom: 72px;
+        margin-bottom: 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+    .h2rep2 {
+        font-size: 40px;
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
+
+    .contentorderrep2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 760px;
+    }
+    
+    
+    .meal-one, .meal-two {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    
+
+    .meal-two {
+        flex-direction: column-reverse;
+    }
+    
+    .meal-one-img, .meal-two-img {
+        margin: 0 0 24px 0;
+        width: 280px;
+        height: 280px;
+    }
+    
+    .meal-info {
+        text-align: center;
+        align-items: center;
+    }
+    
+    #menu-one, #menu-two {
+        padding-right: 30px;
+    }
+    .ourmenutext1 {
+        font-size: 32px;
+    }
+    .locheadrep2 {
+        font-size: 40px;
+        padding-top: 72px;
+        padding-bottom: 8px;
+    }
+    .adressrep2 {
+        font-size: 16px;
+    }
+
+    .dontshow {
+        display: none;
+    }
+    #showfooterlogo {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
